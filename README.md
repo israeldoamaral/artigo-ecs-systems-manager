@@ -3,9 +3,6 @@
 ![Capa](/prints/capa2.png)
 
 
-Em ambientes de produção, é fundamental evitar a exposição direta de senhas e informações confidenciais. Uma prática mais segura é utilizar o **Parameter Store**, uma das muitas funções do **AWS Systems Manager** para gerenciar e fornecer de maneira segura as variáveis de ambiente necessárias, garantindo a proteção adequada dos dados sensíveis durante a execução das tarefas no ECS. Essa abordagem não apenas fortalece a segurança, mas também demonstra um comprometimento sólido com as melhores práticas de gerenciamento de segredos em ambientes de nuvem. Ao adotar essa estratégia, não apenas otimizamos a segurança, mas também fortalecemos o perfil profissional, evidenciando uma compreensão aprofundada das práticas avançadas no contexto do AWS ECS e Systems Manager. #AWS #ECS #SystemsManager #SegurançaEmNuvem #DevOps #CloudComputing
-
-
 ## AWS ECS
 O Amazon Elastic Container Service (ECS) é um serviço de orquestração de contêineres da Amazon Web Services (AWS) que simplifica o gerenciamento e a execução de aplicativos contêinerizados. Com o ECS, os desenvolvedores podem empacotar suas aplicações em contêineres, como Docker, e implantá-las de maneira escalável e eficiente na nuvem AWS.
 

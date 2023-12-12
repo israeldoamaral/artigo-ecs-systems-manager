@@ -38,12 +38,12 @@ No tutorial em questão, supomos a existência de um cluster ECS devidamente con
 **Task Definitions**
 ![print2](./prints/2.png)
 
-Entrando nas configurações dos containers podemos verificar nas variáveis de ambiente a senha sendo exibida de forma text clean.
+Entrando nas configurações dos containers podemos verificar nas variáveis de ambiente a senha sendo exibida de forma Clear Text.
 
-**Definições da Aplicação**
+**Environment variable container app**
 ![print3](./prints/3.png)
 
-**Definições do Banco**
+**Environment variable container banco**
 ![print4](./prints/4.png)
 
 
@@ -89,7 +89,7 @@ Agora selecione a task e vamos criar uma nova versão com a atualização que qu
 
 Na tela da nova versão da Task definitions procure as variáveis de ambiente dos containers que queremos modificar.
 
-Nos campos **Value type** dos parâmetros das senhas, modifique para **ValueFrom** e no campo **value** modifique a senha em text clear para o nome que criamos em Parameter Store. conform mostrado nas imagens.
+Nos campos **Value type** dos parâmetros das senhas, modifique para **ValueFrom** e no campo **value** modifique a senha em Clear Text para o nome que criamos em Parameter Store. conform mostrado nas imagens.
 
 Com essas modificações a Task Definitions vai saber que tem que pegar o valor da Key no Systems Manager.
 
@@ -97,7 +97,7 @@ Com essas modificações a Task Definitions vai saber que tem que pegar o valor 
 
 ![print15](./prints/15.png)
 
-**ATENÇÃO!!!** Agora devemos dar a permissão para que o container possa conversar com o System Manager e poder resgatar o valor da senha.
+**ATENÇÃO!!!** Agora devemos dar a permissão para que os containers possam conversar com o System Manager e poder resgatar o valor da senha.
 
 Ainda na tela da nova verão da Task Definitions, procure por **Task execution role**
 
@@ -105,7 +105,7 @@ Ainda na tela da nova verão da Task Definitions, procure por **Task execution r
 
 Pegue o nome da role no caso aqui  **ecsTaskExecutionRole**.
 
-**OBS:** Essa role foi criado quando iniciamos um novo Cluster ECS. Caso não tenha não você terá que criar no IAM.
+**OBS:** Essa role foi criado quando iniciamos um novo Cluster ECS.
 
 Pesquise em services por IAM.
 
@@ -176,7 +176,8 @@ Veja que agora estamos em conformidade coma segurança e não é mais exibido o 
 
 Com isso finalizamos nosso pequeno artigo.
 
-Espero que você tenha gostado dessa simples demostração de como utilizar o CloudFront Functions.
+Espero que você tenha gostado dessa simples demostração de como passar valores seguros para variáveis de ambientes no AWS ECS com Systems Manager Parameter Store.
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-MEU_LINKEDIN-blue.svg)](https://www.linkedin.com/in/israeldoamaral-aws-devops)
 

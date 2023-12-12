@@ -176,4 +176,19 @@ Veja que agora estamos em conformidade coma segurança e não é mais exibido o 
 
 Com isso finalizamos nosso pequeno artigo.
 
-Espero que tenha gostado!!
+Espero que você tenha gostado dessa simples demostração de como utilizar o CloudFront Functions.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MEU_LINKEDIN-blue.svg)](https://www.linkedin.com/in/israeldoamaral-aws-devops)
+
+
+## Artigos anteriores
+[Jenkins e Docker em uma instância EC2 da AWS com Terraform e Ansible](https://www.linkedin.com/pulse/jenkins-e-docker-em-uma-inst%C3%A2ncia-ec2-da-aws-com-terraform-amaral/)
+
+[AWS VPC Peering](https://www.linkedin.com/pulse/aws-vpc-peering-israel-amaral/)
+
+[Acesso privado ao RDS usando Bastion Host](https://www.linkedin.com/pulse/acesso-privado-ao-rds-usando-bastion-host-israel-amaral/)
+
+[Acesso privado ao RDS usando Bastion Host](https://www.linkedin.com/pulse/acesso-privado-ao-rds-usando-bastion-host-israel-amaral/)
+
+
+[CloudFront Functions](https://www.linkedin.com/pulse/cloudfront-functions-israel-do-amaral-x2epf/?trackingId=h5VH%2Bv2wSb%2BPu3aUbkymHQ%3D%3D)
